@@ -1,4 +1,4 @@
-# 变分模式提取
+# 变分模式提取 Variational Mode Extraction
 def vme(signal, Alpha=3500, omega_int=0.0028, tau=0, tol=1e-6):
         # 对输入信号进行镜像扩展，使其长度变为原来的两倍
         T = len(signal)
